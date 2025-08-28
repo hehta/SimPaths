@@ -1,9 +1,16 @@
 package simpaths.model.enums;
 
+import microsim.statistics.regression.IntegerValuedEnum;
+
 public enum Region implements IntegerValuedEnum {
 	
 	//Uses NUTS Level 1 system for each country
-	
+
+	//Hungary					//Name										//EUROMOD drgn1 value
+	HUC("Central Hungary", 1), // HU1
+	HUA("Transdanubia", 2), // HU2
+	HUB("Great Plain and North", 3), // HU3
+
 	//Italy					//Name										//EUROMOD drgn1 value
 	ITC("Nord Ovest", 1),	//Nord Ovest								1
 	ITF("Sud", 4),			//Sud										4
