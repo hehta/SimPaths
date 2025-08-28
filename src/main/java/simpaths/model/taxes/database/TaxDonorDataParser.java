@@ -231,10 +231,6 @@ public class TaxDonorDataParser {
                 + "ALTER TABLE " + personTableName + " ALTER COLUMN DDI int;"
                 + "ALTER TABLE " + personTableName + " ALTER COLUMN DDI RENAME TO DLLTSD;"
 
-                //social care provision
-                + "ALTER TABLE " + personTableName + " ALTER COLUMN LCR01 int;"
-                + "ALTER TABLE " + personTableName + " ALTER COLUMN LCR01 RENAME TO CARER;"
-
                 //Labour hours
                 //XXX: Could set " + Parameters.HOURS_WORKED_WEEKLY + ", earnings, labour cost etc. to 0 if retired.
                 // However, the data does not conform - see idperson 101, who is retired pensioner aged 80, but who declares lhw = 40
@@ -636,7 +632,7 @@ public class TaxDonorDataParser {
 
                 counter++;
                 int age = 0, numberMembersOver17 = 0, numberChildrenUnder5 = 0, numberChildren5To9 = 0;
-                int numberChildren10To17 = 0, dlltsd1 = -1, dlltsd2 = -1, careProvision = -1;
+                int numberChildren10To17 = 0, dlltsd1 = 0, dlltsd2 = 0, careProvision = -1;
                 double hoursWorkedPerWeek1 = 0.0, hoursWorkedPerWeek2 = 0.0;
                 boolean flagInitialiseDemographics = true;
                 for (int fromYear : Parameters.EUROMODpolicyScheduleSystemYearMap.keySet()) {

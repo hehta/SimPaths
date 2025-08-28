@@ -48,6 +48,18 @@ public class Statistics3 {
     @Column(name = "utility_adj_factor_couples")
     private double utilityAdjustmentFactorCouples;
 
+    @Column(name = "utility_adj_factor_ac_male")
+    private double utilityAdjustmentFactorACMale;
+
+    @Column(name = "utility_adj_factor_ac_female")
+    private double utilityAdjustmentFactorACFemale;
+
+    @Column(name = "utility_adj_factor_male_with_dep")
+    private double utilityAdjustmentFactorMaleWithDep;
+
+    @Column(name = "utility_adj_factor_female_with_dep")
+    private double utilityAdjustmentFactorFemaleWithDep;
+
     public double getPartnershipAdjustmentFactor() {
         return partnershipAdjustmentFactor;
     }
@@ -84,8 +96,40 @@ public class Statistics3 {
         return utilityAdjustmentFactorCouples;
     }
 
+    public double getUtilityAdjustmentFactorACMale() {
+        return utilityAdjustmentFactorACMale;
+    }
+
+    public double getUtilityAdjustmentFactorACFemale() {
+        return utilityAdjustmentFactorACFemale;
+    }
+
+    public double getUtilityAdjustmentFactorMaleWithDep() {
+        return utilityAdjustmentFactorMaleWithDep;
+    }
+
+    public double getUtilityAdjustmentFactorFemaleWithDep() {
+        return utilityAdjustmentFactorFemaleWithDep;
+    }
+
     public void setUtilityAdjustmentFactorCouples(double utilityAdjustmentFactorCouples) {
         this.utilityAdjustmentFactorCouples = utilityAdjustmentFactorCouples;
+    }
+
+    public void setUtilityAdjustmentFactorACMale(double utilityAdjustmentFactorACMale) {
+        this.utilityAdjustmentFactorACMale = utilityAdjustmentFactorACMale;
+    }
+
+    public void setUtilityAdjustmentFactorACFemale(double utilityAdjustmentFactorACFemale) {
+        this.utilityAdjustmentFactorACFemale = utilityAdjustmentFactorACFemale;
+    }
+
+    public void setUtilityAdjustmentFactorMaleWithDep(double utilityAdjustmentFactorMaleWithDep) {
+        this.utilityAdjustmentFactorMaleWithDep = utilityAdjustmentFactorMaleWithDep;
+    }
+
+    public void setUtilityAdjustmentFactorFemaleWithDep(double utilityAdjustmentFactorFemaleWithDep) {
+        this.utilityAdjustmentFactorFemaleWithDep = utilityAdjustmentFactorFemaleWithDep;
     }
 
     public double getSocialCareAdjustmentFactor() { return socialCareAdjustmentFactor; }
@@ -151,9 +195,12 @@ public class Statistics3 {
         setFertilityRateSimulated(val);
         setFertilityRateTarget(Parameters.getFertilityRateByYear(model.getYear()-1));
 
-        setSocialCareAdjustmentFactor(Parameters.getTimeSeriesValue(model.getYear()-1, TimeSeriesVariable.CareProvisionAdjustment));
         setUtilityAdjustmentFactorSmales(Parameters.getTimeSeriesValue(model.getYear()-1, TimeSeriesVariable.UtilityAdjustmentSingleMales));
         setUtilityAdjustmentFactorSfemales(Parameters.getTimeSeriesValue(model.getYear()-1, TimeSeriesVariable.UtilityAdjustmentSingleFemales));
         setUtilityAdjustmentFactorCouples(Parameters.getTimeSeriesValue(model.getYear()-1, TimeSeriesVariable.UtilityAdjustmentCouples));
+        setUtilityAdjustmentFactorACMale(Parameters.getTimeSeriesValue(model.getYear()-1, TimeSeriesVariable.UtilityAdjustmentACMales));
+        setUtilityAdjustmentFactorACFemale(Parameters.getTimeSeriesValue(model.getYear()-1, TimeSeriesVariable.UtilityAdjustmentACFemales));
+        setUtilityAdjustmentFactorMaleWithDep(Parameters.getTimeSeriesValue(model.getYear()-1, TimeSeriesVariable.UtilityAdjustmentMaleWithDep));
+        setUtilityAdjustmentFactorFemaleWithDep(Parameters.getTimeSeriesValue(model.getYear()-1, TimeSeriesVariable.UtilityAdjustmentFemaleWithDep));
     }
 }
