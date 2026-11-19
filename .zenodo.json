@@ -1,88 +1,86 @@
 {
     "creators": [
-      {
-        "name": "Richiardi, Matteo",
-        "affiliation": "Centre for Microsimulation and Policy Analysis, University of Essex",
-        "type": "ProjectLeader"
-      },
-      {
-        "name": "Bronka, Patryk",
-        "affiliation": "Centre for Microsimulation and Policy Analysis, University of Essex",
-        "type": "ProjectMember"
-      },
-      {
-        "name": "van de Ven, Justin",
-        "affiliation": "Centre for Microsimulation and Policy Analysis, University of Essex",
-        "type": "ProjectMember"
-      }
+        {
+            "name": "Richiardi, Matteo",
+            "affiliation": "Centre for Microsimulation and Policy Analysis, University of Essex"
+        },
+        {
+            "name": "Bronka, Patryk",
+            "affiliation": "Centre for Microsimulation and Policy Analysis, University of Essex"
+        },
+        {
+            "name": "van de Ven, Justin",
+            "affiliation": "Centre for Microsimulation and Policy Analysis, University of Essex"
+        }
     ],
     "contributors": [
         {
             "name": "Vartuzova, Mariia",
-            "affiliation": "Centre for Microsimulation and Policy Analysis, University of Essex",
-            "type": "ProjectMember"
+            "type": "ProjectMember",
+            "affiliation": "Centre for Microsimulation and Policy Analysis, University of Essex"
         },
         {
             "name": "Sonnewald, David J",
-            "affiliation": "Centre for Microsimulation and Policy Analysis, University of Essex",
-            "type": "ProjectMember"
+            "type": "ProjectMember",
+            "affiliation": "Centre for Microsimulation and Policy Analysis, University of Essex"
         },
         {
             "name": "Kopasker, Daniel",
-            "affiliation": "University of Glasgow",
-            "type": "ProjectMember"
+            "type": "ProjectMember",
+            "affiliation": "University of Glasgow"
         },
         {
             "name": "Katikireddi, S Vital",
-            "affiliation": "University of Glasgow",
-            "type": "ProjectMember"
+            "type": "ProjectMember",
+            "affiliation": "University of Glasgow"
         },
         {
             "name": "Popova, Daria",
-            "affiliation": "Centre for Microsimulation and Policy Analysis, University of Essex",
-            "type": "ProjectMember"
+            "type": "ProjectMember",
+            "affiliation": "Centre for Microsimulation and Policy Analysis, University of Essex"
         },
         {
             "name": "Shi, Liang",
-            "affiliation": "Centre for Microsimulation and Policy Analysis, University of Essex",
-            "type": "ProjectMember"
+            "type": "ProjectMember",
+            "affiliation": "Centre for Microsimulation and Policy Analysis, University of Essex"
         },
         {
             "name": "Burdett, Ashley",
-            "affiliation": "Centre for Microsimulation and Policy Analysis, University of Essex",
-            "type": "ProjectMember"
+            "type": "ProjectMember",
+            "affiliation": "Centre for Microsimulation and Policy Analysis, University of Essex"
         },
         {
             "name": "Kalakandra, Hrushikesh",
-            "affiliation": "Centre for Microsimulation and Policy Analysis, University of Essex",
-            "type": "ProjectMember"
+            "type": "ProjectMember",
+            "affiliation": "Centre for Microsimulation and Policy Analysis, University of Essex"
         },
         {
             "name": "Morison, Adrien",
-            "affiliation": "University of Glasgow",
-            "type": "ProjectMember"
+            "type": "ProjectMember",
+            "affiliation": "University of Glasgow"
         },
         {
-            "name": "Igelstr\u00F6m, Erik",
-            "affiliation": "University of Glasgow",
-            "type": "ProjectMember"
+            "name": "Igelström, Erik",
+            "type": "ProjectMember",
+            "affiliation": "University of Glasgow"
         },
         {
             "name": "Baxter, Andrew J",
+            "type": "ProjectMember",
             "orcid": "0000-0002-7654-9687",
-            "affiliation": "University of Glasgow",
-            "type": "ProjectMember"
+            "affiliation": "University of Glasgow"
         },
         {
             "name": "Del Castillo, Darwin",
-            "affiliation": "University of Glasgow",
-          "type": "ProjectMember"
+            "type": "ProjectMember",
+            "affiliation": "University of Glasgow"
         }
     ],
     "related_identifiers": [
         {
             "identifier": "https://microsimulation.pub/articles/00318/",
             "relation": "isSupplementTo",
+            "scheme": "url",
             "resource_type": "publication-article"
         }
     ],
