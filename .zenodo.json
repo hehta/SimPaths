@@ -1,0 +1,100 @@
+{
+    "creators": [
+      {
+        "name": "Richiardi, Matteo",
+        "affiliation": "Centre for Microsimulation and Policy Analysis, University of Essex"
+      },
+      {
+        "name": "Bronka, Patryk",
+        "affiliation": "Centre for Microsimulation and Policy Analysis, University of Essex",
+        "type": "ProjectMember"
+      },
+      {
+        "name": "van de Ven, Justin",
+        "affiliation": "Centre for Microsimulation and Policy Analysis, University of Essex",
+        "type": "ProjectMember"
+      }
+    ],
+    "contributors": [
+        {
+            "name": "Vartuzova, Mariia",
+            "affiliation": "Centre for Microsimulation and Policy Analysis, University of Essex",
+            "type": "ProjectMember"
+        },
+        {
+            "name": "Sonnewald, David J",
+            "affiliation": "Centre for Microsimulation and Policy Analysis, University of Essex",
+            "type": "ProjectMember"
+        },
+        {
+            "name": "Kopasker, Daniel",
+            "affiliation": "University of Glasgow",
+            "type": "ProjectMember"
+        },
+        {
+            "name": "Katikireddi, S Vital",
+            "affiliation": "University of Glasgow",
+            "type": "ProjectMember"
+        },
+        {
+            "name": "Popova, Daria",
+            "affiliation": "Centre for Microsimulation and Policy Analysis, University of Essex",
+            "type": "ProjectMember"
+        },
+        {
+            "name": "Shi, Liang",
+            "affiliation": "Centre for Microsimulation and Policy Analysis, University of Essex"
+        },
+        {
+            "name": "Burdett, Ashley",
+            "affiliation": "Centre for Microsimulation and Policy Analysis, University of Essex",
+            "type": "ProjectMember"
+        },
+        {
+            "name": "Kalakandra, Hrushikesh",
+            "affiliation": "Centre for Microsimulation and Policy Analysis, University of Essex",
+            "type": "ProjectMember"
+        },
+        {
+            "name": "Morison, Adrien",
+            "affiliation": "University of Glasgow",
+            "type": "ProjectMember"
+        },
+        {
+            "name": "Igelstr\u00F6m, Erik",
+            "affiliation": "University of Glasgow",
+            "type": "ProjectMember"
+        },
+        {
+            "name": "Baxter, Andrew J",
+            "orcid": "0000-0002-7654-9687",
+            "affiliation": "University of Glasgow",
+            "type": "ProjectMember"
+        },
+        {
+            "name": "Del Castillo, Darwin",
+            "affiliation": "University of Glasgow",
+          "type": "ProjectMember"
+        }
+    ],
+    "related_identifiers": [
+        {
+            "identifier": "https://microsimulation.pub/articles/00318/",
+            "relation": "isSupplementTo",
+            "resource_type": "publication-article"
+        }
+    ],
+    "title": "SimPaths: An open-source microsimulation model for life course analysis",
+    "version": "2026-11-19-snapshot",
+    "access_right": "open",
+    "keywords": [
+        "microsimulation",
+        "labour",
+        "tax and benefits",
+        "health",
+        "economic determinants of health"
+    ],
+    "license": "EUPL-1.2",
+    "upload_type": "software",
+    "language": "eng"
+}
